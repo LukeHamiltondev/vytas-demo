@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T16:30:00Z",
+  "title": "Design System: Vytas Automobilių Remontas",
+  "extensions": {
+    "colorMeta": {
+      "board": {
+        "role": "primary",
+        "displayName": "Hammerite Board Green",
+        "canonical": "#2c5546",
+        "oklch": "oklch(41.5% 0.053 168)",
+        "tonalRamp": [
+          "oklch(15% 0.041 168)",
+          "oklch(26% 0.046 168)",
+          "oklch(38% 0.051 168)",
+          "oklch(49% 0.049 168)",
+          "oklch(61% 0.044 168)",
+          "oklch(72% 0.039 168)",
+          "oklch(84% 0.033 168)",
+          "oklch(95% 0.028 168)"
+        ]
+      },
+      "board-deep": {
+        "role": "primary",
+        "displayName": "Shadowed Board Green",
+        "canonical": "#1f4034",
+        "oklch": "oklch(34.2% 0.045 168)",
+        "tonalRamp": [
+          "oklch(15% 0.037 168)",
+          "oklch(26% 0.042 168)",
+          "oklch(38% 0.043 168)",
+          "oklch(49% 0.039 168)",
+          "oklch(61% 0.034 168)",
+          "oklch(72% 0.029 168)",
+          "oklch(84% 0.025 168)",
+          "oklch(95% 0.020 168)"
+        ]
+      },
+      "hole": {
+        "role": "primary",
+        "displayName": "Peg Hole",
+        "canonical": "#142b23",
+        "oklch": "oklch(26.7% 0.033 169)",
+        "tonalRamp": [
+          "oklch(15% 0.030 169)",
+          "oklch(26% 0.033 169)",
+          "oklch(38% 0.030 169)",
+          "oklch(49% 0.026 169)",
+          "oklch(61% 0.023 169)",
+          "oklch(72% 0.020 169)",
+          "oklch(84% 0.016 169)",
+          "oklch(95% 0.013 169)"
+        ]
+      },
+      "grip": {
+        "role": "secondary",
+        "displayName": "Dipped-Handle Red",
+        "canonical": "#c8202f",
+        "oklch": "oklch(53.8% 0.200 24)",
+        "tonalRamp": [
+          "oklch(15% 0.130 24)",
+          "oklch(26% 0.151 24)",
+          "oklch(38% 0.171 24)",
+          "oklch(49% 0.192 24)",
+          "oklch(61% 0.187 24)",
+          "oklch(72% 0.167 24)",
+          "oklch(84% 0.146 24)",
+          "oklch(95% 0.126 24)"
+        ]
+      },
+      "grip-hover": {
+        "role": "secondary",
+        "displayName": "Fresh-Dip Red",
+        "canonical": "#dd2a3a",
+        "oklch": "oklch(58.4% 0.212 23)",
+        "tonalRamp": [
+          "oklch(15% 0.129 23)",
+          "oklch(26% 0.151 23)",
+          "oklch(38% 0.173 23)",
+          "oklch(49% 0.194 23)",
+          "oklch(61% 0.207 23)",
+          "oklch(72% 0.185 23)",
+          "oklch(84% 0.164 23)",
+          "oklch(95% 0.142 23)"
+        ]
+      },
+      "grip-error": {
+        "role": "secondary",
+        "displayName": "Deep Fault Red",
+        "canonical": "#a3121f",
+        "oklch": "oklch(45.8% 0.176 25)",
+        "tonalRamp": [
+          "oklch(15% 0.127 25)",
+          "oklch(26% 0.145 25)",
+          "oklch(38% 0.163 25)",
+          "oklch(49% 0.170 25)",
+          "oklch(61% 0.152 25)",
+          "oklch(72% 0.134 25)",
+          "oklch(84% 0.116 25)",
+          "oklch(95% 0.098 25)"
+        ]
+      },
+      "paint": {
+        "role": "tertiary",
+        "displayName": "White Outline Paint",
+        "canonical": "#eef3ee",
+        "oklch": "oklch(95.9% 0.008 146)",
+        "tonalRamp": [
+          "oklch(15% 0.008 146)",
+          "oklch(26% 0.008 146)",
+          "oklch(38% 0.008 146)",
+          "oklch(49% 0.008 146)",
+          "oklch(61% 0.008 146)",
+          "oklch(72% 0.008 146)",
+          "oklch(84% 0.008 146)",
+          "oklch(95% 0.008 146)"
+        ]
+      },
+      "paint-dim": {
+        "role": "tertiary",
+        "displayName": "Faded Paint",
+        "canonical": "#c4d3ca",
+        "oklch": "oklch(85.3% 0.020 160)",
+        "tonalRamp": [
+          "oklch(15% 0.020 160)",
+          "oklch(26% 0.020 160)",
+          "oklch(38% 0.020 160)",
+          "oklch(49% 0.020 160)",
+          "oklch(61% 0.020 160)",
+          "oklch(72% 0.020 160)",
+          "oklch(84% 0.020 160)",
+          "oklch(95% 0.020 160)"
+        ]
+      },
+      "steel": {
+        "role": "tertiary",
+        "displayName": "Tool Steel",
+        "canonical": "#a9b3b8",
+        "oklch": "oklch(76.0% 0.013 229)",
+        "tonalRamp": [
+          "oklch(15% 0.013 229)",
+          "oklch(26% 0.013 229)",
+          "oklch(38% 0.013 229)",
+          "oklch(49% 0.013 229)",
+          "oklch(61% 0.013 229)",
+          "oklch(72% 0.013 229)",
+          "oklch(84% 0.013 229)",
+          "oklch(95% 0.013 229)"
+        ]
+      },
+      "steel-dark": {
+        "role": "tertiary",
+        "displayName": "Shadowed Steel",
+        "canonical": "#6f7b81",
+        "oklch": "oklch(57.5% 0.017 229)",
+        "tonalRamp": [
+          "oklch(15% 0.017 229)",
+          "oklch(26% 0.017 229)",
+          "oklch(38% 0.017 229)",
+          "oklch(49% 0.017 229)",
+          "oklch(61% 0.017 229)",
+          "oklch(72% 0.017 229)",
+          "oklch(84% 0.017 229)",
+          "oklch(95% 0.017 229)"
+        ]
+      },
+      "peg-steel": {
+        "role": "tertiary",
+        "displayName": "Peg Steel",
+        "canonical": "#8d989d",
+        "oklch": "oklch(67.2% 0.015 227)",
+        "tonalRamp": [
+          "oklch(15% 0.015 227)",
+          "oklch(26% 0.015 227)",
+          "oklch(38% 0.015 227)",
+          "oklch(49% 0.015 227)",
+          "oklch(61% 0.015 227)",
+          "oklch(72% 0.015 227)",
+          "oklch(84% 0.015 227)",
+          "oklch(95% 0.015 227)"
+        ]
+      },
+      "galv": {
+        "role": "neutral",
+        "displayName": "Galvanised Sheet",
+        "canonical": "#e4e8ea",
+        "oklch": "oklch(92.9% 0.005 229)",
+        "tonalRamp": [
+          "oklch(15% 0.005 229)",
+          "oklch(26% 0.005 229)",
+          "oklch(38% 0.005 229)",
+          "oklch(49% 0.005 229)",
+          "oklch(61% 0.005 229)",
+          "oklch(72% 0.005 229)",
+          "oklch(84% 0.005 229)",
+          "oklch(95% 0.005 229)"
+        ]
+      },
+      "galv-2": {
+        "role": "neutral",
+        "displayName": "Aluminium Rail",
+        "canonical": "#d3d9dc",
+        "oklch": "oklch(88.2% 0.008 229)",
+        "tonalRamp": [
+          "oklch(15% 0.008 229)",
+          "oklch(26% 0.008 229)",
+          "oklch(38% 0.008 229)",
+          "oklch(49% 0.008 229)",
+          "oklch(61% 0.008 229)",
+          "oklch(72% 0.008 229)",
+          "oklch(84% 0.008 229)",
+          "oklch(95% 0.008 229)"
+        ]
+      },
+      "plate": {
+        "role": "neutral",
+        "displayName": "Enamel Plate",
+        "canonical": "#f6f8f9",
+        "oklch": "oklch(97.8% 0.003 229)",
+        "tonalRamp": [
+          "oklch(15% 0.003 229)",
+          "oklch(26% 0.003 229)",
+          "oklch(38% 0.003 229)",
+          "oklch(49% 0.003 229)",
+          "oklch(61% 0.003 229)",
+          "oklch(72% 0.003 229)",
+          "oklch(84% 0.003 229)",
+          "oklch(95% 0.003 229)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Workshop Ink",
+        "canonical": "#15201b",
+        "oklch": "oklch(23.1% 0.018 165)",
+        "tonalRamp": [
+          "oklch(15% 0.018 165)",
+          "oklch(26% 0.018 165)",
+          "oklch(38% 0.018 165)",
+          "oklch(49% 0.018 165)",
+          "oklch(61% 0.018 165)",
+          "oklch(72% 0.018 165)",
+          "oklch(84% 0.018 165)",
+          "oklch(95% 0.018 165)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Worn Ink",
+        "canonical": "#44514b",
+        "oklch": "oklch(42.2% 0.019 166)",
+        "tonalRamp": [
+          "oklch(15% 0.019 166)",
+          "oklch(26% 0.019 166)",
+          "oklch(38% 0.019 166)",
+          "oklch(49% 0.019 166)",
+          "oklch(61% 0.019 166)",
+          "oklch(72% 0.019 166)",
+          "oklch(84% 0.019 166)",
+          "oklch(95% 0.019 166)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Scribed Rule",
+        "canonical": "#b9c3c7",
+        "oklch": "oklch(81.1% 0.012 224)",
+        "tonalRamp": [
+          "oklch(15% 0.012 224)",
+          "oklch(26% 0.012 224)",
+          "oklch(38% 0.012 224)",
+          "oklch(49% 0.012 224)",
+          "oklch(61% 0.012 224)",
+          "oklch(72% 0.012 224)",
+          "oklch(84% 0.012 224)",
+          "oklch(95% 0.012 224)"
+        ]
+      },
+      "tape": {
+        "role": "neutral",
+        "displayName": "Label Tape Black",
+        "canonical": "#161616",
+        "oklch": "oklch(20.0% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display (stencil signwriting)",
+        "purpose": "The garage name on the board only; uppercase. Same face at 1.7rem is the wordmark."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings; uppercase."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service names in the job sheet (2.4rem from 900px) and the job-card heading (1.6rem, 0.06em)."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Buttons and nav links; uppercase. 800 weight at 1.2-1.25rem on the call bar and submit."
+      },
+      "label": {
+        "displayName": "Label tape",
+        "purpose": "Names on label tape only; uppercase."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Sentence under a section heading, max 58ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text, 60-62ch."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hanging-tool",
+        "value": "drop-shadow(2px 4px 3px rgba(0,0,0,0.38))",
+        "purpose": "CSS filter on a tool resting on its peg."
+      },
+      {
+        "name": "hanging-tool-lifted",
+        "value": "drop-shadow(6px 14px 8px rgba(0,0,0,0.35))",
+        "purpose": "CSS filter on a tool lifted off its peg (hover/focus)."
+      },
+      {
+        "name": "hanging-tag",
+        "value": "0 6px 12px rgba(0,0,0,0.3)",
+        "purpose": "Call and book tags at rest."
+      },
+      {
+        "name": "hanging-tag-swung",
+        "value": "0 10px 18px rgba(0,0,0,0.32)",
+        "purpose": "Tag swung on hover."
+      },
+      {
+        "name": "pinned-card",
+        "value": "0 14px 30px rgba(0,0,0,0.35)",
+        "purpose": "The job card pinned to the booking board."
+      },
+      {
+        "name": "embossed-tape",
+        "value": "0 1px 2px rgba(0,0,0,0.35)",
+        "purpose": "Label tape strip; pairs with text-shadow 0 -1px 0 rgba(0,0,0,0.6), 0 1px 0 rgba(255,255,255,0.12)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-swing",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Exponential ease-out for every lift, swing and slide."
+      },
+      {
+        "name": "tool-lift",
+        "value": "transform .5s, filter .5s; translateY(-14%) rotate(-7deg) from origin 50% 6%",
+        "purpose": "Tool lifts off its peg on hover/focus."
+      },
+      {
+        "name": "tag-swing",
+        "value": "transform .4s; rotate(-2.5deg) from the eye (25px 0)",
+        "purpose": "Hanging tag swings on hover."
+      },
+      {
+        "name": "callbar-slide",
+        "value": "transform .4s; translateY(110%) to none",
+        "purpose": "Mobile call bar appears after the opening board leaves the viewport."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transitions off; lifts disabled",
+        "purpose": "Honoured globally under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "fields",
+        "value": "560px"
+      },
+      {
+        "name": "footer",
+        "value": "760px"
+      },
+      {
+        "name": "board",
+        "value": "900px"
+      }
+    ],
+    "textures": [
+      {
+        "name": "pegboard",
+        "value": "radial-gradient(circle, #142b23 0 2.4px, rgba(20,43,35,0.5) 2.9px, transparent 3.3px) 12px 12px / 25px 25px, linear-gradient(180deg, rgba(255,255,255,0.05), rgba(0,0,0,0.12)) on #2c5546",
+        "purpose": "The board ground."
+      },
+      {
+        "name": "pegboard-mini",
+        "value": "radial-gradient(circle, #142b23 0 1.6px, transparent 2px) 8px 8px / 16px 16px on #2c5546",
+        "purpose": "Mini board panels in the job sheet."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Call Button",
+      "kind": "button",
+      "refersTo": "button-call",
+      "description": "The red grip on the header rail: one tap to ring the garage.",
+      "html": "<a class=\"ds-btn-call\" href=\"tel:+353000000000\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z\" fill=\"currentColor\"/></svg>Call</a>",
+      "css": ".ds-btn-call { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 4px; background: var(--grip, #c8202f); color: #fff; text-decoration: none; font: 700 1.1rem/1 \"Shoulders\", \"Arial Narrow\", sans-serif; letter-spacing: 0.08em; text-transform: uppercase; } .ds-btn-call:hover { background: var(--grip-hover, #dd2a3a); } .ds-btn-call:focus-visible { outline: 3px solid var(--grip, #c8202f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Submit Button",
+      "kind": "button",
+      "refersTo": "button-submit",
+      "description": "Sends the job card; the only button on a light ground.",
+      "html": "<button class=\"ds-btn-submit\" type=\"button\">Send booking</button>",
+      "css": ".ds-btn-submit { min-height: 52px; padding: 0 26px; border: 0; border-radius: 4px; background: var(--grip, #c8202f); color: #fff; font: 800 1.25rem/1 \"Shoulders\", \"Arial Narrow\", sans-serif; letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer; } .ds-btn-submit:hover { background: var(--grip-hover, #dd2a3a); } .ds-btn-submit:focus-visible { outline: 3px solid var(--grip, #c8202f); outline-offset: 3px; }"
+    },
+    {
+      "name": "Hanging Tags",
+      "kind": "custom",
+      "refersTo": "tag-call",
+      "description": "The two primary actions, hung on wire hooks on the board; they swing from the eye on hover.",
+      "html": "<div class=\"ds-board\"><a class=\"ds-tag ds-tag-call\" href=\"tel:+353000000000\"><span class=\"ds-hook\" aria-hidden=\"true\"><svg viewBox=\"0 0 28 52\" width=\"28\" height=\"52\"><circle cx=\"14\" cy=\"6\" r=\"5\" fill=\"#8d989d\"/><path d=\"M14 6 V38 a6 6 0 0 0 12 0 v-4\" fill=\"none\" stroke=\"#8d989d\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg></span><small>Ring the garage</small><strong><span class=\"ds-ph\">Phone number</span></strong></a><a class=\"ds-tag ds-tag-book\" href=\"#book\"><span class=\"ds-hook\" aria-hidden=\"true\"><svg viewBox=\"0 0 28 52\" width=\"28\" height=\"52\"><circle cx=\"14\" cy=\"6\" r=\"5\" fill=\"#8d989d\"/><path d=\"M14 6 V38 a6 6 0 0 0 12 0 v-4\" fill=\"none\" stroke=\"#8d989d\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg></span><strong>Book a repair</strong></a></div>",
+      "css": ".ds-board { background-color: var(--board, #2c5546); background-image: radial-gradient(circle, var(--hole, #142b23) 0 2.4px, rgba(20,43,35,0.5) 2.9px, transparent 3.3px); background-size: 25px 25px; background-position: 12px 12px; padding: 44px 24px 24px; display: flex; gap: 14px; flex-wrap: wrap; } .ds-tag { position: relative; display: inline-flex; flex-direction: column; justify-content: center; min-height: 68px; padding: 10px 26px 10px 48px; border-radius: 6px 14px 14px 6px; text-decoration: none; box-shadow: 0 6px 12px rgba(0,0,0,0.3); transform-origin: 25px 0; transition: transform .4s cubic-bezier(.16,1,.3,1), box-shadow .4s cubic-bezier(.16,1,.3,1); } .ds-tag::before { content: ''; position: absolute; left: 18px; top: 22px; width: 14px; height: 14px; border-radius: 50%; background: var(--board, #2c5546); border: 2px solid rgba(255,255,255,0.55); } .ds-hook { position: absolute; left: 11px; top: -30px; width: 28px; height: 52px; pointer-events: none; } .ds-tag:hover { transform: rotate(-2.5deg); box-shadow: 0 10px 18px rgba(0,0,0,0.32); } .ds-tag:focus-visible { outline: 3px solid var(--paint, #eef3ee); outline-offset: 3px; } .ds-tag small { font: 600 0.8rem/1.2 \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; letter-spacing: 0.06em; text-transform: uppercase; opacity: 0.85; } .ds-tag strong { font: 800 1.7rem/1.05 \"Shoulders\", \"Arial Narrow\", sans-serif; letter-spacing: 0.04em; text-transform: uppercase; } .ds-tag-call { background: var(--grip, #c8202f); color: #fff; } .ds-tag-call:hover { background: var(--grip-hover, #dd2a3a); } .ds-tag-book { background: var(--paint, #eef3ee); color: var(--board-deep, #1f4034); } .ds-ph { padding: 0 6px; border: 1.5px dashed currentColor; border-radius: 3px; font-size: 0.86em; font-weight: 600; }"
+    },
+    {
+      "name": "Tool on the Board",
+      "kind": "custom",
+      "refersTo": "label-tape",
+      "description": "A service as a tool hung over its painted outline, named in label tape; lifts off its peg on hover or focus.",
+      "html": "<div class=\"ds-board-tool\"><a class=\"ds-toolhang\" href=\"#brakes\"><svg viewBox=\"0 0 100 240\" width=\"60\" height=\"144\" aria-hidden=\"true\"><g class=\"ds-outline\"><rect x=\"16\" y=\"10\" width=\"74\" height=\"42\" rx=\"8\"/><circle cx=\"20\" cy=\"31\" r=\"19\"/><rect x=\"34\" y=\"40\" width=\"32\" height=\"200\" rx=\"14\"/></g><g class=\"ds-lift\"><g class=\"ds-steel\"><rect x=\"22\" y=\"16\" width=\"62\" height=\"30\" rx=\"4\"/><circle cx=\"20\" cy=\"31\" r=\"13\"/><rect x=\"80\" y=\"12\" width=\"10\" height=\"38\" rx=\"3\"/></g><rect x=\"43\" y=\"46\" width=\"14\" height=\"80\" rx=\"3\" fill=\"#6f7b81\"/><rect x=\"40\" y=\"122\" width=\"20\" height=\"110\" rx=\"9\" class=\"ds-grip\"/></g></svg><span class=\"ds-tape\">Brakes</span></a></div>",
+      "css": ".ds-board-tool { background-color: var(--board, #2c5546); background-image: radial-gradient(circle, var(--hole, #142b23) 0 2.4px, rgba(20,43,35,0.5) 2.9px, transparent 3.3px); background-size: 25px 25px; background-position: 12px 12px; display: inline-grid; justify-items: center; gap: 12px; padding: 24px 32px; } .ds-toolhang { display: grid; justify-items: center; gap: 12px; text-decoration: none; border-radius: 6px; padding: 6px 2px 2px; } .ds-toolhang:focus-visible { outline: 3px solid var(--paint, #eef3ee); outline-offset: 3px; } .ds-toolhang svg { overflow: visible; } .ds-outline { fill: var(--paint, #eef3ee); } .ds-steel { fill: var(--steel, #a9b3b8); } .ds-grip { fill: var(--grip, #c8202f); } .ds-toolhang .ds-lift { transform-box: view-box; transform-origin: 50% 6%; filter: drop-shadow(2px 4px 3px rgba(0,0,0,0.38)); transition: transform .5s cubic-bezier(.16,1,.3,1), filter .5s cubic-bezier(.16,1,.3,1); } .ds-toolhang:hover .ds-lift, .ds-toolhang:focus-visible .ds-lift { transform: translateY(-14%) rotate(-7deg); filter: drop-shadow(6px 14px 8px rgba(0,0,0,0.35)); } @media (prefers-reduced-motion: reduce) { .ds-toolhang .ds-lift { transition: none; } .ds-toolhang:hover .ds-lift, .ds-toolhang:focus-visible .ds-lift { transform: none; } } .ds-tape { display: inline-block; padding: 4px 10px 3px; background: var(--tape, #161616); color: #f4f4f4; font: 700 0.95rem/1.2 \"Shoulders\", \"Arial Narrow\", sans-serif; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.35); text-shadow: 0 -1px 0 rgba(0,0,0,0.6), 0 1px 0 rgba(255,255,255,0.12); }"
+    },
+    {
+      "name": "Job Sheet Row",
+      "kind": "card",
+      "refersTo": "chip-job",
+      "description": "One service: mini board panel with the tool outline, title, description and chips, on hairline rules.",
+      "html": "<ul class=\"ds-jobs\"><li class=\"ds-job\"><span class=\"ds-mini\" aria-hidden=\"true\"></span><h3>Brakes &amp; suspension</h3><p>Pads, discs, shocks and springs, and the squeals, knocks and pulls that come with them.</p><ul class=\"ds-chips\"><li>Pads &amp; discs</li><li>Shock absorbers</li><li>Springs</li></ul></li></ul>",
+      "css": ".ds-jobs { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink, #15201b); background: var(--galv, #e4e8ea); color: var(--ink, #15201b); font: 400 1.0625rem/1.6 \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; } .ds-job { display: grid; grid-template-columns: 64px 1fr; gap: 6px 20px; padding: 28px 0; border-bottom: 1px solid var(--rule, #b9c3c7); } .ds-mini { grid-row: span 3; width: 64px; height: 150px; border-radius: 4px; background-color: var(--board, #2c5546); background-image: radial-gradient(circle, var(--hole, #142b23) 0 1.6px, transparent 2px); background-size: 16px 16px; background-position: 8px 8px; } .ds-job h3 { margin: 0; font: 800 1.9rem/1 \"Shoulders\", \"Arial Narrow\", sans-serif; text-transform: uppercase; letter-spacing: 0.02em; } .ds-job p { margin: 0; color: var(--ink-2, #44514b); max-width: 62ch; } .ds-chips { list-style: none; padding: 0; margin: 12px 0 0; display: flex; flex-wrap: wrap; gap: 8px; } .ds-chips li { padding: 4px 10px; border: 1px solid var(--rule, #b9c3c7); border-radius: 3px; background: var(--plate, #f6f8f9); font-size: 0.92rem; }"
+    },
+    {
+      "name": "Job Card with Fields",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "The booking form as a pinned job card: underline-only fields, red caret and focus underline, number-plate reg field.",
+      "html": "<div class=\"ds-bookboard\"><form class=\"ds-card\"><h3>Job card</h3><label>Your name<input class=\"ds-input\"></label><label>Car reg<input class=\"ds-input ds-reg\" placeholder=\"191-D-12345\"></label></form></div>",
+      "css": ".ds-bookboard { background-color: var(--board, #2c5546); background-image: radial-gradient(circle, var(--hole, #142b23) 0 2.4px, rgba(20,43,35,0.5) 2.9px, transparent 3.3px); background-size: 25px 25px; background-position: 12px 12px; padding: 32px 24px; } .ds-card { position: relative; display: grid; gap: 16px; max-width: 420px; background: var(--plate, #f6f8f9); color: var(--ink, #15201b); border-radius: 3px; padding: 28px; box-shadow: 0 14px 30px rgba(0,0,0,0.35); transform: rotate(-0.6deg); font-family: \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; } .ds-card::before { content: ''; position: absolute; top: -10px; left: 50%; width: 20px; height: 20px; margin-left: -10px; border-radius: 50%; background: #8d989d; border: 5px solid var(--steel-dark, #6f7b81); } .ds-card h3 { margin: 0; font: 800 1.6rem/1 \"Shoulders\", \"Arial Narrow\", sans-serif; text-transform: uppercase; letter-spacing: 0.06em; padding-bottom: 14px; border-bottom: 2px solid var(--ink, #15201b); } .ds-card label { display: grid; gap: 6px; font-weight: 600; font-size: 0.95rem; } .ds-input { width: 100%; box-sizing: border-box; font: 400 1rem/1.4 \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; color: var(--ink, #15201b); background: #fff; border: 0; border-bottom: 2px solid var(--rule, #b9c3c7); border-radius: 0; padding: 10px 2px; caret-color: var(--grip, #c8202f); } .ds-input:focus { outline: none; border-bottom-color: var(--grip, #c8202f); } .ds-input:user-invalid { border-bottom-color: var(--grip-error, #a3121f); } .ds-input::placeholder { color: #6a7570; } .ds-reg { font-family: \"Shoulders\", \"Arial Narrow\", sans-serif; font-weight: 800; font-size: 1.3rem; letter-spacing: 0.12em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Header Rail",
+      "kind": "nav",
+      "refersTo": "button-call",
+      "description": "Sticky aluminium rail: stencil wordmark, uppercase nav links, red Call.",
+      "html": "<header class=\"ds-rail\"><a class=\"ds-brand\" href=\"#top\">VYTAS</a><nav><a href=\"#services\">Services</a><a href=\"#about\">About</a><a href=\"#book\">Book</a></nav><a class=\"ds-btn-call\" href=\"tel:+353000000000\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z\" fill=\"currentColor\"/></svg>Call</a></header>",
+      "css": ".ds-rail { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 64px; padding: 0 24px; background: var(--galv-2, #d3d9dc); border-bottom: 1px solid #8f9a9f; } .ds-brand { font: 900 1.7rem/1 \"Shoulders Stencil\", \"Arial Narrow\", sans-serif; letter-spacing: 0.04em; text-decoration: none; color: var(--board-deep, #1f4034); } .ds-rail nav { display: flex; gap: 4px; } .ds-rail nav a { padding: 8px 12px; font: 700 1.1rem/1 \"Shoulders\", \"Arial Narrow\", sans-serif; letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; color: var(--ink-2, #44514b); } .ds-rail nav a:hover { color: var(--ink, #15201b); } .ds-rail a:focus-visible { outline: 3px solid var(--grip, #c8202f); outline-offset: 3px; } .ds-btn-call { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: 4px; background: var(--grip, #c8202f); color: #fff; text-decoration: none; font: 700 1.1rem/1 \"Shoulders\", \"Arial Narrow\", sans-serif; letter-spacing: 0.08em; text-transform: uppercase; } .ds-btn-call:hover { background: var(--grip-hover, #dd2a3a); }"
+    },
+    {
+      "name": "Placeholder Mark",
+      "kind": "chip",
+      "description": "Dashed box marking a fact the garage has not supplied yet; replaced with the real fact, never restyled.",
+      "html": "<p class=\"ds-ph-demo\">Car servicing, repairs and diagnostics in <span class=\"ds-ph\">Town</span>.</p>",
+      "css": ".ds-ph-demo { font: 400 1.0625rem/1.6 \"Archivo\", \"Helvetica Neue\", Arial, sans-serif; color: var(--ink, #15201b); } .ds-ph { padding: 0 6px; border: 1.5px dashed currentColor; border-radius: 3px; font-size: 0.86em; font-weight: 600; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Shadow Board",
+    "overview": "The site is the wall of an orderly, owner-run workshop: a Hammerite machinery-green pegboard with a real hole grid, steel tools with red-dipped handles hanging on pegs, each over its own flat white painted silhouette, and names punched into black embossed label tape. Nothing on the board says \"organised\" or \"trustworthy\"; the order of the board says it. Services are tools, actions are tags hung on hooks, the booking form is a job card pinned to the board.\n\nThe board is the loud surface and it appears twice: the opening viewport and the booking section. Between them, reading sections sit on pale, cool galvanised grey, quiet enough to read on a phone. The display voice is stencil signwriting; headings are condensed workshop capitals; reading text is a plain, sturdy grotesque. Depth is physical and literal: things that hang cast soft shadows on the board, and nothing else floats.\n\nThe world explicitly rejects the category default for garages: dark asphalt photo heroes, hi-vis orange buttons, and a row of equal service cards. Reading grounds are cool grey, never cream.",
+    "keyCharacteristics": [
+      "Green perforated pegboard as the brand ground, used for the hero and the booking section only.",
+      "One-drawing tools: each SVG silhouette serves as the steel tool, its painted outline, and its small icon in the job sheet, re-coloured by custom properties.",
+      "Red is the grip colour and the call colour: every red thing is a handle you take hold of.",
+      "Black label tape names things on the board and nowhere else.",
+      "Placeholders look like placeholders (dashed box), so missing facts are never disguised."
+    ],
+    "rules": [
+      {
+        "name": "The Grip Rule",
+        "body": "Red appears only where a hand would take hold: grips, call and submit controls, focus, and the one live hours row. It is never a heading colour, background band or decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Boards Rule",
+        "body": "The green board is a stage, not a theme. It opens the page and returns for booking; every reading section between sits on galvanised grey or enamel plate.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cool Ground Rule",
+        "body": "Light grounds are cool greys (galv, galv-2, plate), never cream or warm off-white.",
+        "section": "colors"
+      },
+      {
+        "name": "The Signwriter Rule",
+        "body": "The stencil face is for the garage's name only. Headings, labels and buttons use Big Shoulders; reading text uses Archivo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Capitals Are Labels Rule",
+        "body": "Condensed uppercase is for things you name or press. Sentences, ledes and descriptions are sentence case in Archivo.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only Things That Hang Rule",
+        "body": "A shadow means the object hangs on or is pinned to the board. Nothing on a galvanised ground gets a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do hang every service as a tool on the board, drawn once as an SVG symbol and recoloured through the steel, grip and shade fills.",
+      "Do keep the board's hole grid real (25px pitch, punched holes) wherever the green board appears, including the mini panels in the job sheet (16px pitch).",
+      "Do reserve grip red for things you take hold of: calls, submit, grips, focus.",
+      "Do set reading sections on galvanised grey or enamel plate with hairline rules instead of shadows.",
+      "Do mark every unsupplied fact with the dashed placeholder box.",
+      "Do keep the lift and swing motions on exponential ease-out (cubic-bezier(.16,1,.3,1)) and drop them under reduced motion."
+    ],
+    "donts": [
+      "Don't use a dark asphalt photo hero, hi-vis orange buttons, or a row of equal service cards.",
+      "Don't use cream or warm off-white grounds.",
+      "Don't set anything but the garage name in the stencil face.",
+      "Don't put label tape on galvanised sections; it names things on the board.",
+      "Don't give shadows to anything that is not hanging or pinned."
+    ]
+  }
+}
