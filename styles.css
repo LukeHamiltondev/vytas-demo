@@ -184,11 +184,8 @@ p, ul, ol, dl, dd { margin: 0; }
 .hours .today { color: var(--grip); }
 .addr { margin-top: 24px; display: grid; gap: 6px; font-size: 1.1rem; }
 .addr a { font-weight: 600; }
-.map {
-  min-height: 320px; border-radius: 4px; display: grid; place-items: center; padding: 24px; text-align: center;
-  background-color: #cfd7d2; color: var(--ink-2); border: 1px solid var(--rule);
-}
-.map svg { width: 40px; height: 40px; margin: 0 auto 10px; color: var(--grip); }
+.map { min-height: 340px; border-radius: 4px; overflow: hidden; background: #cfd7d2; border: 1px solid var(--rule); }
+.map iframe { display: block; width: 100%; height: 100%; min-height: 340px; border: 0; }
 
 /* Booking: on the board again, a job card pinned to it */
 .book { color: var(--paint); }

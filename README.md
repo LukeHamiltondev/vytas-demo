@@ -6,7 +6,7 @@ Plain HTML, CSS and a little JavaScript with no build step. Open `index.html` lo
 
 ## Placeholders
 
-Anything Vytas hasn't supplied yet is shown in a dashed box (the `.ph` class): phone number, town and address, opening hours, the service list, the about text and the map. The workshop photo is a placeholder reused from the Tullamore demo. The booking form emails `bookings@example.ie`; change `BOOKING_EMAIL` in `script.js`.
+Anything Vytas hasn't supplied yet is shown in a dashed box (the `.ph` class): weekend hours, the service list, the about text. The workshop photo is a placeholder reused from the Tullamore demo. The booking form emails `bookings@example.ie`; change `BOOKING_EMAIL` in `script.js`.
 
 ## Design
 

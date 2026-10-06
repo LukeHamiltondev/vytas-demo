@@ -14,7 +14,7 @@ Static HTML/CSS with no build step, hosted on Vercel, the same setup as Luke's T
 
 ## Users
 
-Drivers near the garage in Ireland *(inferred: exact town not yet known)* whose car has a fault, a warning light, a noise, or needs a service or NCT prep. Many arrive on a phone, often after asking around or searching "mechanic near me", and want to know quickly whether this garage can fix it, where it is, when it's open, and how to ring.
+Drivers in and around Tullamore, Co. Offaly whose car has a fault, a warning light, a noise, or needs a service or NCT prep. Many arrive on a phone, often after asking around or searching "mechanic near me", and want to know quickly whether this garage can fix it, where it is, when it's open, and how to ring.
 
 Second audience: Vytas himself. This is a demo Luke (Solaris Scaling) builds to win Vytas as a client, so it has to make Vytas recognise his own business and want it.
 
@@ -36,7 +36,8 @@ An owner-run garage: the person who answers the phone is the person who fixes th
 
 - Must load fast and read well on a phone; one-tap call is the primary action.
 - Respect `prefers-reduced-motion`.
-- Undecided: address, town, phone, opening hours, exact service list, makes, prices, photos, logo, domain.
+- Confirmed by Luke (2026-10-06): phone 085 739 6850; Riverview Business Park, Cloncollig, Tullamore, Co. Offaly, R35 X6C6; hours 9:00 to 18:00 "for now" (shown Mon to Fri; weekends unconfirmed).
+- Undecided: weekend hours, exact service list, makes, prices, photos, logo, domain.
 
 ## Brand Commitments
 
