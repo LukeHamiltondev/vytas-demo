@@ -1,5 +1,5 @@
 ---
-name: Vytas Automobilių Remontas
+name: Vytas Car Repairs
 description: An owner-run garage's site built as a workshop shadow board, every service a tool hung in its painted outline.
 colors:
   board: "#2c5546"
@@ -127,7 +127,7 @@ components:
     padding: "10px 2px"
 ---
 
-# Design System: Vytas Automobilių Remontas
+# Design System: Vytas Car Repairs
 
 ## Overview
 

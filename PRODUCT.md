@@ -20,7 +20,7 @@ Second audience: Vytas himself. This is a demo Luke (Solaris Scaling) builds to 
 
 ## Product Purpose
 
-Vytas Automobilių Remontas ("Vytas Car Repairs") is an independent car repair garage in Ireland whose only web presence is a Facebook page (https://www.facebook.com/VytasAutomobiliuRemontas/). The site turns local drivers into phone calls and booking requests. Success is a driver ringing or sending a booking request.
+Vytas Car Repairs is an independent car repair garage in Ireland whose only web presence is a Facebook page (https://www.facebook.com/VytasAutomobiliuRemontas/). The site turns local drivers into phone calls and booking requests. Success is a driver ringing or sending a booking request.
 
 ## Positioning
 
@@ -28,7 +28,7 @@ An owner-run garage: the person who answers the phone is the person who fixes th
 
 ## Operating Context
 
-- English only; the business is in Ireland (Luke, 2026-10-06). The Lithuanian business name stays as the brand.
+- English only; the business is in Ireland (Luke, 2026-10-06).
 - Built by Solaris Scaling as an unsolicited demo; facts not yet supplied appear as clearly marked placeholders.
 - No server: the booking form opens the visitor's email or SMS app, as on the Tullamore demo.
 
@@ -40,7 +40,7 @@ An owner-run garage: the person who answers the phone is the person who fixes th
 
 ## Brand Commitments
 
-- Name: Vytas Automobilių Remontas. No logo supplied yet.
+- Name on the site: Vytas Car Repairs. No Lithuanian anywhere on the site, and no "languages spoken" line (Luke, 2026-10-06). No logo supplied yet.
 
 ## Evidence on Hand
 

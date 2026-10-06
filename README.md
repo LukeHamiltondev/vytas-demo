@@ -1,6 +1,6 @@
-# Vytas Automobilių Remontas: demo site
+# Vytas Car Repairs: demo site
 
-A one-page demo website for Vytas Automobilių Remontas, a car repair garage in Ireland, built by Solaris Scaling.
+A one-page demo website for Vytas Car Repairs, a car repair garage in Ireland, built by Solaris Scaling.
 
 Plain HTML, CSS and a little JavaScript with no build step. Open `index.html` locally, or deploy the repository root to Vercel as a static site (Framework preset: Other, no build command, output directory `.`).
 
