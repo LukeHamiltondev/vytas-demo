@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vytas Automobilių Remontas | Car Repairs, Servicing & Diagnostics</title>
+<meta name="description" content="Car servicing, repairs, diagnostics, brakes, clutches, tyres and NCT prep at Vytas Automobilių Remontas. Ring or book online.">
+<meta name="theme-color" content="#2c5546">
+<link rel="preload" href="fonts/big-shoulders-stencil-display-latin-900-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/archivo-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AutoRepair", "name": "Vytas Automobilių Remontas", "alternateName": "Vytas Car Repairs", "sameAs": ["https://www.facebook.com/VytasAutomobiliuRemontas/"], "address": {"@type": "PostalAddress", "addressCountry": "IE"}}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- Tool silhouettes. Fills come from custom properties so one drawing serves as tool, painted outline and icon. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="f-outline" x="-20%" y="-10%" width="140%" height="120%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="6" result="grown"/>
+      <feFlood flood-color="#eef3ee"/>
+      <feComposite in2="grown" operator="in"/>
+    </filter>
+    <mask id="m-spanner" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="240">
+      <rect width="100" height="240" fill="#fff"/>
+      <circle cx="50" cy="40" r="12" fill="#000"/>
+      <path d="M41 206 h18 v40 h-18z" fill="#000"/>
+      <circle cx="50" cy="206" r="9" fill="#000"/>
+    </mask>
+    <mask id="m-driver" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="240">
+      <rect width="100" height="240" fill="#fff"/>
+      <circle cx="50" cy="30" r="6" fill="#000"/>
+    </mask>
+    <mask id="m-ratchet" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="240">
+      <rect width="100" height="240" fill="#fff"/>
+      <circle cx="50" cy="28" r="6" fill="#000"/>
+    </mask>
+    <mask id="m-brace" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="240">
+      <rect width="100" height="240" fill="#fff"/>
+      <circle cx="50" cy="26" r="5" fill="#000"/>
+    </mask>
+    <mask id="m-reader" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="240">
+      <rect width="100" height="240" fill="#fff"/>
+      <circle cx="50" cy="19" r="4.5" fill="#000"/>
+    </mask>
+  </defs>
+
+  <symbol id="t-spanner" viewBox="0 0 100 240">
+    <g mask="url(#m-spanner)">
+      <circle cx="50" cy="40" r="26" style="fill:var(--steel-fill)"/>
+      <path d="M41 58 h18 l-2 136 h-14z" style="fill:var(--steel-fill)"/>
+      <path d="M47 64 h3 l-0.5 124 h-2z" style="fill:var(--shade-fill)"/>
+      <circle cx="50" cy="206" r="29" style="fill:var(--steel-fill)"/>
+    </g>
+  </symbol>
+
+  <symbol id="t-reader" viewBox="0 0 100 240">
+    <g mask="url(#m-reader)">
+      <rect x="40" y="10" width="20" height="24" rx="6" style="fill:var(--grip-fill)"/>
+      <rect x="18" y="26" width="64" height="108" rx="12" style="fill:var(--grip-fill)"/>
+      <rect x="28" y="38" width="44" height="40" rx="3" style="fill:var(--shade-fill)"/>
+      <circle cx="35" cy="98" r="6" style="fill:var(--steel-fill)"/>
+      <circle cx="50" cy="98" r="6" style="fill:var(--steel-fill)"/>
+      <circle cx="65" cy="98" r="6" style="fill:var(--steel-fill)"/>
+      <rect x="36" y="114" width="28" height="7" rx="3" style="fill:var(--steel-fill)"/>
+      <path d="M50 134 C50 160 30 160 36 182 C40 196 50 192 50 202" style="fill:none;stroke:var(--shade-fill);stroke-width:7;stroke-linecap:round"/>
+      <path d="M33 200 h34 l-4 34 h-26z" style="fill:var(--steel-fill)"/>
+    </g>
+  </symbol>
+
+  <symbol id="t-hammer" viewBox="0 0 100 240">
+    <rect x="22" y="16" width="62" height="30" rx="4" style="fill:var(--steel-fill)"/>
+    <circle cx="20" cy="31" r="13" style="fill:var(--steel-fill)"/>
+    <rect x="80" y="12" width="10" height="38" rx="3" style="fill:var(--steel-fill)"/>
+    <rect x="43" y="46" width="14" height="80" rx="3" style="fill:var(--shade-fill)"/>
+    <rect x="40" y="122" width="20" height="110" rx="9" style="fill:var(--grip-fill)"/>
+  </symbol>
+
+  <symbol id="t-ratchet" viewBox="0 0 100 240">
+    <g mask="url(#m-ratchet)">
+      <rect x="38" y="12" width="24" height="112" rx="11" style="fill:var(--grip-fill)"/>
+      <path d="M42 120 h16 l2 64 h-20z" style="fill:var(--steel-fill)"/>
+      <circle cx="50" cy="204" r="26" style="fill:var(--steel-fill)"/>
+      <rect x="43" y="197" width="14" height="14" style="fill:var(--shade-fill)"/>
+      <rect x="40" y="220" width="20" height="6" rx="3" style="fill:var(--shade-fill)"/>
+    </g>
+  </symbol>
+
+  <symbol id="t-brace" viewBox="0 0 100 240">
+    <g mask="url(#m-brace)">
+      <rect x="45" y="30" width="10" height="186" style="fill:var(--steel-fill)"/>
+      <rect x="18" y="115" width="64" height="10" style="fill:var(--steel-fill)"/>
+      <rect x="40" y="12" width="20" height="30" rx="2" style="fill:var(--shade-fill)"/>
+      <rect x="40" y="204" width="20" height="30" rx="2" style="fill:var(--shade-fill)"/>
+      <rect x="2" y="110" width="26" height="20" rx="2" style="fill:var(--shade-fill)"/>
+      <rect x="72" y="110" width="26" height="20" rx="2" style="fill:var(--shade-fill)"/>
+      <circle cx="50" cy="120" r="10" style="fill:var(--steel-fill)"/>
+    </g>
+  </symbol>
+
+  <symbol id="t-driver" viewBox="0 0 100 240">
+    <g mask="url(#m-driver)">
+      <rect x="34" y="16" width="32" height="96" rx="14" style="fill:var(--grip-fill)"/>
+      <rect x="44" y="110" width="12" height="14" rx="2" style="fill:var(--shade-fill)"/>
+      <rect x="46.5" y="122" width="7" height="100" style="fill:var(--steel-fill)"/>
+      <path d="M46.5 221 h7 l-1.5 15 h-4z" style="fill:var(--steel-fill)"/>
+    </g>
+  </symbol>
+
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z" fill="currentColor"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" fill="currentColor"/></symbol>
+</svg>
+
+<header class="rail">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Vytas Automobilių Remontas, back to top">VYTAS</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#visit">Hours &amp; map</a></li>
+        <li><a href="#book">Book</a></li>
+      </ul>
+    </nav>
+    <a class="rail-call" href="tel:+353000000000"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="board" id="top" aria-labelledby="name">
+    <div class="wrap board-inner">
+      <ul class="rack" aria-label="What we fix">
+        <li><a href="#servicing"><span class="hang" style="--s:.86;--y:4%"><svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-spanner" class="outline" filter="url(#f-outline)"/><use href="#t-spanner" class="tool"/><circle class="peg" cx="50" cy="40" r="6"/></svg></span><span class="tape">Servicing</span></a></li>
+        <li><a href="#diagnostics"><span class="hang" style="--s:.7;--y:0%"><svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-reader" class="outline" filter="url(#f-outline)"/><use href="#t-reader" class="tool"/><circle class="peg" cx="50" cy="19" r="3.5"/></svg></span><span class="tape">Diagnostics</span></a></li>
+        <li><a href="#brakes"><span class="hang" style="--s:1;--y:0%"><svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-hammer" class="outline" filter="url(#f-outline)"/><use href="#t-hammer" class="tool"/><circle class="peg" cx="33" cy="52" r="5"/><circle class="peg" cx="67" cy="52" r="5"/></svg></span><span class="tape">Brakes</span></a></li>
+        <li><a href="#clutch"><span class="hang" style="--s:.9;--y:8%"><svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-ratchet" class="outline" filter="url(#f-outline)"/><use href="#t-ratchet" class="tool"/><circle class="peg" cx="50" cy="28" r="4.5"/></svg></span><span class="tape">Clutch</span></a></li>
+        <li><a href="#tyres"><span class="hang" style="--s:.96;--y:2%"><svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-brace" class="outline" filter="url(#f-outline)"/><use href="#t-brace" class="tool"/><circle class="peg" cx="50" cy="26" r="3.5"/></svg></span><span class="tape">Tyres</span></a></li>
+        <li><a href="#nct"><span class="hang" style="--s:.8;--y:10%"><svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-driver" class="outline" filter="url(#f-outline)"/><use href="#t-driver" class="tool"/><circle class="peg" cx="50" cy="30" r="4.5"/></svg></span><span class="tape">NCT prep</span></a></li>
+      </ul>
+
+      <div class="sign">
+        <h1 id="name">Vytas <span>Automobilių Remontas</span></h1>
+        <p class="offer">Car servicing, repairs and diagnostics in <span class="ph">Town</span>. Ring the garage or book online.</p>
+        <div class="tags">
+          <a class="tag tag-call" href="tel:+353000000000"><span class="hook" aria-hidden="true"><svg viewBox="0 0 28 52"><circle cx="14" cy="6" r="5"/><path d="M14 6 V38 a6 6 0 0 0 12 0 v-4"/></svg></span><small>Ring the garage</small><strong class="num"><span class="ph">Phone number</span></strong></a>
+          <a class="tag tag-book" href="#book"><span class="hook" aria-hidden="true"><svg viewBox="0 0 28 52"><circle cx="14" cy="6" r="5"/><path d="M14 6 V38 a6 6 0 0 0 12 0 v-4"/></svg></span><strong>Book a repair</strong></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services" aria-labelledby="services-h">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="services-h">What we fix</h2>
+        <p class="lede">Servicing and repairs, from a warning light to a worn clutch. If your job isn't listed, ring and ask.</p>
+      </div>
+      <ul class="jobs">
+        <li class="job" id="servicing">
+          <svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-spanner"/></svg>
+          <h3>Servicing</h3>
+          <p>Interim and full services, oil and filters, and the checks that keep a car out of trouble between them.</p>
+          <ul><li>Oil &amp; filter</li><li>Full service</li><li>Timing belts</li><li>Fluids &amp; plugs</li></ul>
+        </li>
+        <li class="job" id="diagnostics">
+          <svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-reader"/></svg>
+          <h3>Diagnostics</h3>
+          <p>Warning light on? The fault codes get read and the cause traced, so you know what it actually needs.</p>
+          <ul><li>Engine light</li><li>ABS &amp; airbag lights</li><li>Electrical faults</li></ul>
+        </li>
+        <li class="job" id="brakes">
+          <svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-hammer"/></svg>
+          <h3>Brakes &amp; suspension</h3>
+          <p>Pads, discs, shocks and springs, and the squeals, knocks and pulls that come with them.</p>
+          <ul><li>Pads &amp; discs</li><li>Shock absorbers</li><li>Springs</li><li>Bushes &amp; links</li></ul>
+        </li>
+        <li class="job" id="clutch">
+          <svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-ratchet"/></svg>
+          <h3>Clutch &amp; gearbox</h3>
+          <p>A slipping clutch, a heavy pedal or gears that crunch going in.</p>
+          <ul><li>Clutch replacement</li><li>Flywheels</li><li>Gearbox faults</li></ul>
+        </li>
+        <li class="job" id="tyres">
+          <svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-brace"/></svg>
+          <h3>Tyres &amp; wheels</h3>
+          <p>Punctures, worn tyres and wheels that need balancing.</p>
+          <ul><li>Puncture repair</li><li>New tyres</li><li>Balancing</li></ul>
+        </li>
+        <li class="job" id="nct">
+          <svg viewBox="0 0 100 240" aria-hidden="true"><use href="#t-driver"/></svg>
+          <h3>NCT prep</h3>
+          <p>A once-over before the test, and the repairs after a fail so the car is ready for its retest.</p>
+          <ul><li>Pre-NCT check</li><li>Fail-sheet repairs</li></ul>
+        </li>
+      </ul>
+      <p class="jobs-note"><span class="ph">Service list to confirm with Vytas</span></p>
+    </div>
+  </section>
+
+  <section class="section about" id="about" aria-labelledby="about-h">
+    <div class="wrap split">
+      <figure class="photo">
+        <picture>
+          <source type="image/webp" srcset="img/workshop-tools-800.webp 800w, img/workshop-tools-1600.webp 1600w" sizes="(min-width: 900px) 600px, 100vw">
+          <img src="img/workshop-tools-800.jpg" srcset="img/workshop-tools-800.jpg 800w, img/workshop-tools-1600.jpg 1600w" sizes="(min-width: 900px) 600px, 100vw" width="800" height="600" alt="Spanners and sockets laid out on a workshop bench">
+        </picture>
+        <figcaption><span class="ph">Placeholder photo: swap for the workshop</span></figcaption>
+      </figure>
+      <div class="prose">
+        <h2 id="about-h">Ask for Vytas</h2>
+        <p>Ring and ask for Vytas by name.</p>
+        <p><span class="ph">A few lines from Vytas: years on the tools, makes known best, how the garage started</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="visit" aria-labelledby="visit-h">
+    <div class="wrap visit-grid">
+      <div>
+        <h2 id="visit-h">Hours &amp; map</h2>
+        <dl class="hours" style="margin-top:28px">
+          <dt>Monday to Friday</dt><dd class="num"><span class="ph">Hours to confirm</span></dd>
+          <dt>Saturday</dt><dd class="num"><span class="ph">Hours to confirm</span></dd>
+          <dt>Sunday</dt><dd><span class="ph">Hours to confirm</span></dd>
+        </dl>
+        <div class="addr">
+          <span><span class="ph">Street address</span></span>
+          <span><span class="ph">Town, Co. ___, Eircode</span></span>
+          <a class="num" href="tel:+353000000000"><span class="ph">Phone number</span></a>
+        </div>
+      </div>
+      <div class="map" role="img" aria-label="Map placeholder">
+        <div>
+          <svg aria-hidden="true"><use href="#i-pin"/></svg>
+          <span class="ph">Google map goes here once the address is confirmed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="board book" id="book" aria-labelledby="book-h">
+    <div class="wrap board-inner book-grid">
+      <div>
+        <h2 id="book-h">Book a repair</h2>
+        <p class="lede">Fill in the job card and send it to the garage. Rather talk now? Ring <a class="num" href="tel:+353000000000"><span class="ph">Phone number</span></a>.</p>
+      </div>
+      <form class="card" id="booking" novalidate>
+        <h3>Job card <span>Vytas Automobilių Remontas</span></h3>
+        <div class="fields">
+          <label>Your name<input name="name" autocomplete="name" required></label>
+          <label>Phone<input name="phone" type="tel" autocomplete="tel" inputmode="tel" required></label>
+          <label>Car reg<input class="reg" name="reg" autocomplete="off" placeholder="191-D-12345" required></label>
+          <label>Make &amp; model<input name="car" placeholder="e.g. 2015 VW Golf"></label>
+          <label class="full">What's wrong?<textarea name="problem" placeholder="Noises, warning lights, when it started" required></textarea></label>
+          <label>Preferred day
+            <select name="day">
+              <option>Any day</option><option>Monday</option><option>Tuesday</option><option>Wednesday</option><option>Thursday</option><option>Friday</option><option>Saturday</option>
+            </select>
+          </label>
+        </div>
+        <div class="form-foot">
+          <p id="form-msg" aria-live="polite">Sending opens your email app with the job card filled in.</p>
+          <button class="submit" type="submit">Send booking</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="#top">VYTAS</a>
+      <p style="margin-top:8px">Automobilių Remontas. Car repairs in <span class="ph">Town</span>.</p>
+    </div>
+    <div>
+      <p><a class="num" href="tel:+353000000000"><span class="ph">Phone number</span></a></p>
+      <p><a href="https://www.facebook.com/VytasAutomobiliuRemontas/" rel="noopener">Facebook page</a></p>
+    </div>
+    <div>
+      <p>&copy; <span id="year">2026</span> Vytas Automobilių Remontas</p>
+      <small>Demo site by Solaris Scaling</small>
+    </div>
+  </div>
+</footer>
+
+<div class="callbar" id="callbar" aria-hidden="true">
+  <a class="c" href="tel:+353000000000" tabindex="-1"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call</a>
+  <a class="b" href="#book" tabindex="-1">Book</a>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
